@@ -16,7 +16,7 @@ Esta es una página de aterrizaje sencilla para **FocusFlow**, una aplicación d
 - `scss/estilos.css`: El archivo de estilos final generado por SASS.
 
 ## 📝 GITHUB
-El link al repo del proyecto es:
+El link al repo del proyecto es: https://github.com/lucianopv98-spec/focusflow
 
 ---
 Creado por Luciano
