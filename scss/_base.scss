@@ -1,0 +1,11 @@
+body {
+    background-color: $background-color;
+    font-family: $font;
+    margin: 0;
+}
+
+main {
+    @include flex-center(column);
+    background-color: $background-color;
+    width: 100%;
+}

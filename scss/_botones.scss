@@ -1,0 +1,25 @@
+.boton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    @include transition-standard;
+    text-align: center;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    &--primario {
+        background-color: $color-brand;
+        color: white;
+    }
+
+    &--secundario {
+        background-color: transparent;
+        color: $color-brand;
+        border: 2px solid $color-brand;
+    }
+}

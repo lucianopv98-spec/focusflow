@@ -1,0 +1,37 @@
+.nav {
+    @include flex-center(row, space-between);
+    padding: 1rem 5%; 
+    background-color: rgba(148, 200, 215, 0.468);
+
+    &__logo {
+        display: inline-block;
+        width: 60px; 
+        height: 60px; 
+        border-radius: 50%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbEGHmQLgMEUTiSJ6kGyQZKLvQZom0yHmBy7dpYOuAZSd1x1vEGyr17S_&s=10);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-indent: -9999px; 
+        overflow: hidden;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__enlace {
+        text-decoration: none;
+        color: #4a5568;
+        font-weight: 500;
+        @include transition-standard;
+
+        &:hover {
+            color: $color-brand;
+        }
+    }
+}
